@@ -1,0 +1,133 @@
+/* Ignore following classes */
+
+* {
+    font-family: "Montserrat", sans-serif;
+    background-color: #eeeeee;
+  }
+  
+  #intro {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 50px;
+  }
+  
+  .insideborder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .para {
+    font-weight: 300;
+    margin-left: 10px;
+  }
+  
+  h2 {
+    font-size: medium;
+    font-weight: 200;
+  }
+  
+  /* Classes that you might find useful */
+  /* Note* These classes do not cover every possibloe case to build you flags, you will have to continue to add your own*/
+  
+  .flag {
+    height: 300px;
+    width: 500px;
+    border-style: solid;
+    margin-bottom: 5rem;
+  }
+  
+  .horiz {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .twovert {
+    height: 50%;
+  }
+  
+  .threevert {
+    height: 33.3%;
+  }
+  
+
+
+
+  .threehoriz {
+    width: 33.3%;
+  }
+  
+  .skinny {
+    height: 17.5%;
+  }
+  
+  .fat {
+    height: 30%;
+  }
+  
+.greece{
+    background-image:-linear-gradient(90deg,transparent 15%,#fff 15%,#fff 22.5%,transparent 22.5%),
+    linear-gradient(transparent 22%,#fff 22%,#fff 33%,transparent 33%),
+    linear-gradient(#0d5eaf 50%,#0d5eaf 50%),
+    linear-gradient(#0d5eaf 50%,#fff 50%);
+    background-image:-linear-gradient(90deg,transparent 15%,#fff 15%,#fff 22.5%,transparent 22.5%),
+    linear-gradient(transparent 22%,#fff 22%,#fff 33%,transparent 33%),
+    linear-gradient(#0d5eaf 50%,#0d5eaf 50%),
+    linear-gradient(#0d5eaf 50%,#fff 50%);
+    background-image:-linear-gradient(90deg,transparent 15%,#fff 15%,#fff 22.5%,transparent 22.5%),
+    linear-gradient(transparent 22%,#fff 22%,#fff 33%,transparent 33%),
+    linear-gradient(#0d5eaf 50%,#0d5eaf 50%),
+    linear-gradient(#0d5eaf 50%,#fff 50%);
+    background-image:linear-gradient(90deg,transparent 15%,#fff 15%,#fff 22.5%,transparent 22.5%),
+    linear-gradient(transparent 22%,#fff 22%,#fff 33%,transparent 33%),
+    linear-gradient(#0d5eaf 50%,#0d5eaf 50%),linear-gradient(#0d5eaf 50%,#fff 50%);
+    background-size:100% 55%,36.6% 100%,36.8% 55%,100% 22.2%;
+    background-repeat:no-repeat,no-repeat,no-repeat,repeat;width:500px;height:300px}
+
+
+
+  .circle {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 33px;
+    top: 100px;
+  }
+
+  
+  /* Colors/ Feel free to add your own! */
+  
+  .red {
+    background-color: red;
+  }
+  
+  .orange {
+    background-color: orange;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .blue {
+    background-color: blue;
+  }
+  
+  .lightblue {
+    background-color: lightblue;
+  }
+  
+  .purple {
+    background-color: purple;
+  }
+  
+  .white {
+    background-color: #fff;
+  }
+
+  
