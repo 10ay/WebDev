@@ -57,10 +57,11 @@
 /* Portfolio*/ 
 
 .portfolio{
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    position:relative;
+    left:650px;
+
     width: 1780px;
+    padding-left: 30px;
     background-color: black;
     color:white;
     height:900px;
