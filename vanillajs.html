@@ -1,0 +1,48 @@
+<style>
+    .black-square {
+      width: 300px;
+      height: 300px;
+      background-color: black;
+    }
+  </style>
+  
+  <div class="black-square"></div>
+  
+<div id="about" class="about_class"><p class="about_p">About</p></div>
+
+
+
+<script>
+    const blacksquarechange = document.querySelector('.black-square');
+    blacksquarechange.style.backgroundColor='crimson';
+    document.getElementById('about').innerHTML='About What';
+
+</script>
+
+
+<ul>
+    <li class="js-target">Unchanged</li>
+    <li class="js-target">Unchanged</li>
+    <li>Won't Change</li>
+    <li class="js-target">Unchanged</li>
+    <li>Won't Change</li>
+    <li class="js-target">Unchanged</li>
+  </ul>
+  <script>
+    const elementsToChange = document.querySelectorAll('.js-target');
+    for (let i = 0; i < elementsToChange.length; i++) {
+      const currentElement = elementsToChange[i];
+      currentElement.innerText = 'Modified by JavaScript!';
+    }
+  </script>
+
+<input placeholder="type into me!" class="input-to-copy" />
+<p class="p-to-copy-to">Nothing has happened yet.</p>
+<script>
+  const input = document.querySelector('.input-to-copy');
+  const paragraph = document.querySelector('.p-to-copy-to');
+
+  input.addEventListener('keyup', function () {
+    paragraph.innerText = input.value;
+  });
+</script>
