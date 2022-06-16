@@ -1,0 +1,23 @@
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#bored-button {
+  cursor: pointer;
+  font-family: fantasy;
+  font-size: 32px;
+  height:100px;
+}
+
+
+#bored-button2 {
+  cursor: pointer;
+  font-family: fantasy;
+  font-size: 32px;
+  height:100px;
+}
